@@ -1,0 +1,5 @@
+"ParallaxTest"
+{
+	"$basetexture" "Experimental/fakeroom01_diffuse"
+	"$parallaxmapscale"	"1000"
+}

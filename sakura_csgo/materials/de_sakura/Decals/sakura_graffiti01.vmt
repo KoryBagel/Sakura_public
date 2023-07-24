@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Decals/graffiti01_diffuse"
+
+	$translucent 1
+	$decal 1
+}

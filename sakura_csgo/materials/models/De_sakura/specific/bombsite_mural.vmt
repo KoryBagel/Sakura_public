@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/specific/bombsite_mural_bombsite_mural_basecolor"
+	$bumpmap "models/de_sakura/specific/bombsite_mural_bombsite_mural_normal"
+	$surfaceprop Concrete_Block
+
+	$detail "detail/detail_rock001"
+	$detailscale 2
+	$detailblendfactor 0.4
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.13 0.13 0.13]"
+	$envmapsaturation 0.09
+
+	$nodecal 1
+}

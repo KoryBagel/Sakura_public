@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/computer/void_light_diffuse"
+	$bumpmap "effects/flat_normal"
+
+	$reflectivity "[0.84 0.94 1]"
+
+	$detail "metal/hr_metal/hr_metal_detail_002"
+	$detailscale 8
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.07 0.07 0.07]"
+
+	$phong 1
+	$phongfresnelranges "[0.14 0.57 1]"
+	$phongexponent 180
+	$phongboost 9.22
+	$basemapalphaphongmask 1
+}

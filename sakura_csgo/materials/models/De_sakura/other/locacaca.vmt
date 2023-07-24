@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/locacaca"
+	$bumpmap "models/De_sakura/other/locacaca_normal"
+
+	$envmap "env_cubemap"
+    $envmaptint "[0.03 0.03 0.03]"
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.56 1]"
+	$phongexponent 5
+}

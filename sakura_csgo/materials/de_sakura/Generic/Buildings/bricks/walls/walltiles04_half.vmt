@@ -1,0 +1,20 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Generic/Buildings/bricks/walls/hr_walltiles_diffuse_1_half"
+	$bumpmap "de_sakura/Generic/Buildings/bricks/walls/hr_walltiles_normal_1_half"
+	$surfaceprop Tile
+
+	$detail "de_sakura/generic/buildings/bricks/walls/walltile04_detail_diffuse"
+	$detailscale 0.25
+	$detailblendfactor 0.3
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.49 0.49 0.49]"
+	$envmapcontrast 0.67
+
+	$phong 1
+	$phongexponent 230
+	$phongamount "[1.01 1.01 1.01 1]"
+	$phongmaskcontrastbrightness "[1.1 1]"
+}

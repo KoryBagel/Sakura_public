@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/generic/buildings/roof/texturescom_roofing_japaneseold_512_albedo"
+	$bumpmap "de_sakura/generic/buildings/roof/texturescom_roofing_japaneseold_512_normal"
+	$surfaceprop Tile
+
+	$envmap "environment maps/metal_generic_003"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.03 0.03 0.03]"
+	$envmapsaturation 0.01
+
+	$phong 1
+	$phongexponent 44
+	$phongamount "[1 1 1 1]"
+}

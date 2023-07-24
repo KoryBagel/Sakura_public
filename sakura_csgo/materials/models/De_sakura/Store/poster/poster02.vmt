@@ -1,0 +1,9 @@
+Patch
+{
+	include "materials/models/de_sakura/store/poster/poster_base.vmt"
+
+	insert
+	{
+		$basetexture "models/De_sakura/Store/poster/poster02"
+	}
+}

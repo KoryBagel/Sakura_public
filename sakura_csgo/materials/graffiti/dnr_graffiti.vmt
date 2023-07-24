@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	$basetexture "graffiti/dnr_graffiti"
+
+	$alpha 0.82
+	$translucent 1
+	$decal 1
+	$decalscale 0.1
+}

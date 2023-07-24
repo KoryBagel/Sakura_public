@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/computer/void_light_diffuse"
+	$bumpmap "effects/flat_normal"
+
+	$envmap "environment maps/metal_generic_002"
+	$envmaptint "[0.78 0.78 0.78]"
+	$envmapcontrast 0.78
+	$envmapsaturation 0.78
+	$envmapfresnel 0.78
+
+	$selfillum 1
+}

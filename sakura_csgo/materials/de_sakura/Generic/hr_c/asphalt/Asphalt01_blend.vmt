@@ -1,0 +1,29 @@
+WorldVertexTransition
+{
+	$basetexture "de_sakura/generic/hr_c/asphalt/asphalt01_diffuse"
+	$bumpmap "de_sakura/generic/hr_c/asphalt/asphalt01_normal"
+	$surfaceprop Concrete
+
+	$basetexture2 "de_sakura/generic/hr_c/asphalt/asphalt01cracked_diffuse"
+	$bumpmap2 "de_sakura/generic/hr_c/asphalt/asphalt01cracked_normal"
+	$surfaceprop2 Concrete
+
+	$detail "asphalt/hr_c/hr_asphalt_001_detail"
+	$detailscale 0.25
+	$detail2 "asphalt/hr_c/hr_asphalt_001_detail"
+	$detailscale2 0.25
+
+	$normalmapalphaenvmapmask 1
+
+	$phong 1
+	$phongexponent 32
+	$phongamount "[0.2 0.2 0.2 1]"
+	$phongmaskcontrastbrightness "[2.19 1]"
+
+	%tooltexture "de_sakura/generic/hr_c/asphalt/asphalt01_blend_tooltexture"
+
+	$blendsoftness 0.04
+	$layerbordersoftness 0
+	$layerborderstrength 0.34
+	$newlayerblending 1
+}

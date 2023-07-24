@@ -1,0 +1,15 @@
+UnlitGeneric
+{
+	$basetexture "de_sakura/detail/light_panel_diffuse"
+	$surfaceprop Grass
+
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar "$baseTextureTransform"
+			texturescrollrate 0.25
+			texturescrollangle 180
+		}
+	}
+}

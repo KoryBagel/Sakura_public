@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Decals/paint_splatter_color"
+
+	$detail "concrete/hr_c/hr_concrete_wall_painted_003b_detail"
+	$detailscale 2
+	$detailblendfactor 0.16
+
+	$alpha 1.5
+	$translucent 1
+	$decal 1
+
+	$color "[0.75 0.62 0.05]"
+}

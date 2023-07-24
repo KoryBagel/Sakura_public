@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/detail/lod_glass/Window_fixer_Lit"
+	$bumpmap "de_sakura/detail/lod_glass/Window_fixer_normal"
+	$surfaceprop Grass
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.50 0.50 0.50]"
+
+	$selfillum 1
+	$selfillummask "de_sakura/detail/lod_glass/window_fixer_Illum"
+	$selfillumtint "[0 0 0]"
+}

@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/generic/storetable_diffuse"
+	$bumpmap "models/De_sakura/Store/generic/storetable_Normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.19 0.19 0.19]"
+	$envmapcontrast 0.18
+	$envmapsaturation 0.1
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongtint "[0.88 0.88 0.88]"
+	$phongexponent 151
+	$phongboost 2.03
+	$basemapalphaphongmask 1
+}

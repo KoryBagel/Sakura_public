@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/general/lanterns/illum_generic"
+
+	$additive 1
+
+	$selfillum 1
+	$selfillumfresnelminmaxexp "[0 1 0.1]"
+	$selfillumtint "[0.49 0.49 0.49]"
+
+	$color2 "[0.49 0.49 0.49]"
+
+	$notint 1
+}

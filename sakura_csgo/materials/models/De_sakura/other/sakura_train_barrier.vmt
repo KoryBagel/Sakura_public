@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/sakura_train_barrier"
+	$bumpmap "models/De_sakura/other/sakura_train_barrier_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/sakura_train_barrier_specular"
+    $normalmapalphaenvmapmask 1
+    $envmaptint "[0.08 0.08 0.08]"
+    $envmapsaturation 0.23
+    $envmaplightscale 1
+    $envmaplightscaleminmax "[0 1]" 
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.56 1]"
+	$phongexponent 5
+
+	$selfillum 1
+	$selfillummask "models/De_sakura/other/sakura_train_barrier_selfium"
+	
+	$detail "detail/metal_detail_01"
+	$detailscale 8
+    $detailblendfactor 1
+}

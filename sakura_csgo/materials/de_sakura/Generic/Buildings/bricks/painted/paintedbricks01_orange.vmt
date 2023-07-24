@@ -1,0 +1,21 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Generic/Buildings/bricks/painted/paintedbricks01_Diffuse"
+	$bumpmap "de_sakura/Generic/Buildings/bricks/painted/paintedbricks01_Normal"
+	$surfaceprop Brick
+
+	$detail "detail/dt_walltexture01"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.05 0.05 0.05]"
+	$envmapsaturation 0.04
+
+	$phong 1
+	$phongexponent 40
+	$phongamount "[0.22 0.22 0.22 1]"
+	$phongmaskcontrastbrightness "[5.91 1]"
+
+	$color "[0.59 0.28 0.15]"
+	$blendtintbybasealpha 1
+}

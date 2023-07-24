@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/general/vending/vendingmachine_small_diffuse2"
+	$bumpmap "models/de_sakura/general/vending/vendingmachine_small_normal"
+
+	$envmap "environment maps/metal_generic_002"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.03 0.03 0.03]"
+	$envmapcontrast 0.04
+	$envmapsaturation 0.11
+	$envmaplightscale 0.4
+	$envmaplightscaleminmax "[0.20 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.38 0.69 1]"
+	$phongexponent 324
+	$phongboost 1.79
+	$basemapalphaphongmask 1
+
+	$selfillum 1
+	$selfillummask "models/de_sakura/general/vending/vendingmachine_small_emmisive"
+	$selfillumtint "[4.29 4.88 5]"
+}

@@ -1,0 +1,33 @@
+UnlitGeneric
+{
+	$basetexture "de_sakura/detail/glowing_room_diffuse"
+
+	$color "[0.92 1.37 1.49]"
+
+	$playerpos "[0.0 0.0 0.0]"
+	$playerposy 0.0
+	$translate "[0.0 0.0]"
+
+	Proxies
+	{
+		PlayerPosition
+		{
+			scale -0.00035
+			resultVar "$playerpos"
+		}
+
+		Clamp
+		{
+			srcVar1 "$playerpos"
+			min "$playerpos[1]"
+			max "$playerpos[1]"
+			resultVar "$translate[0]"
+		}
+
+		TextureTransform
+		{
+			translateVar "$translate"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

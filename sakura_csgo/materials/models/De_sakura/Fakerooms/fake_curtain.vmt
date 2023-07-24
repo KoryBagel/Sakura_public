@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Fakerooms/curtain01"
+
+	$alphatest 1
+}

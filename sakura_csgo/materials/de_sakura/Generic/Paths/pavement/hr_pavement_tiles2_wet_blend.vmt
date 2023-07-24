@@ -1,0 +1,45 @@
+WorldVertexTransition
+{
+	$basetexture "de_sakura/generic/paths/pavement/sidewalk_tiles2_diffuse"
+	$bumpmap "de_sakura/generic/paths/pavement/sidewalk_tiles2_normal"
+	$surfaceprop Concrete
+
+	$basetexture2 "de_sakura/generic/paths/pavement/sidewalk_tiles2_diffuse"
+	$bumpmap2 "de_sakura/generic/shared/puddle_normals"
+	$surfaceprop2 Puddle
+
+	$blendmodulatetexture "de_sakura/generic/paths/pavement/sidewalk_tiles2_height"
+
+	$envmap "env_cubemap"
+	$envmapmask "de_sakura/Generic/Paths/pavement/Sidewalk_tiles2_glossiness"
+	$envmapmask2 white
+	$envmaptint "[0.62 0.62 0.62]"
+	$envmapcontrast 1
+	$envmapsaturation 0.8
+	$envmaplightscale 0.59
+	$envmaplightscaleminmax "[0 1]"
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.5
+
+	$phong 1
+	$phongexponent 14
+	$phongamount "[0.25 0.25 0.25 1]"
+	$phongexponent2 200
+	$phongamount2 "[0.82 1.16 1.58 1]"
+	$phongmaskcontrastbrightness2 "[1 2]"
+
+	$addbumpmaps 1
+	$bumptransform2 "center 0.5 0.5 scale 2 2 rotate 0 translate 0 0"
+
+	$layertint2 "[0.67 0.67 0.67]"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedtexturevar "$bumpmap2"
+			animatedtextureframenumvar "$bumpframe2"
+			animatedtextureframerate 30
+		}
+	}
+}

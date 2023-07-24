@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/general/sakura_fence_finish_tommorow!!!!_street_metal_atlas_basecolor"
+	$bumpmap "models/de_sakura/general/sakura_fence_finish_tommorow!!!!_street_metal_atlas_normal"
+
+	$envmap "environment maps/metal_generic_001"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.04 0.04 0.04]"
+	$envmapsaturation 0.04
+	$envmaplightscale 0.73
+	$envmaplightscaleminmax "[0.30 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.25 0.63 1]"
+	$phongexponent 282
+	$basemapalphaphongmask 1
+}

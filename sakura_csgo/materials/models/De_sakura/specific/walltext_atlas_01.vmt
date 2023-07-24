@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/specific/walltext_atlas_01_Base_color"
+	$bumpmap "models/De_sakura/specific/walltext_atlas_01_Normal_DirectX"
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+}

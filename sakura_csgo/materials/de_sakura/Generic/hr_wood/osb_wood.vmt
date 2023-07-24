@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/generic/hr_wood/osb_wood_diffuse"
+	$bumpmap "de_sakura/generic/hr_wood/osb_wood_normal"
+	$surfaceprop Wood_Panel
+
+	$normalmapalphaenvmapmask 1
+
+	$phong 1
+	$phongexponent 27
+	$phongamount "[0.43 0.43 0.43 1]"
+}

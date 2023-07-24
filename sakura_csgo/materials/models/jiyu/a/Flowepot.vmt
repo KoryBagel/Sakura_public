@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+	$basetexture "models/jiyu/A/flowerpotDiff"
+	$bumpmap "models/jiyu/A/FlowerpotNorm"
+	$surfaceprop Wood
+
+	$envmap "env_cubemap"
+	$envmapmask "models/jiyu/A/FlowerpotGlos"
+	$envmaptint "[0.20 0.20 0.20]"
+	$envmapsaturation 0.07
+
+	$phong 1
+	$phongfresnelranges "[0.12 0.56 1]"
+	$phongexponent 169
+	$phongboost 1.05
+	$phongalbedoboost 0
+	$basemapalphaphongmask 1
+}

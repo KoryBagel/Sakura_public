@@ -1,0 +1,16 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Generic/Buildings/bricks/walls/fake_bricks_BaseColor"
+	$bumpmap "de_sakura/Generic/Buildings/bricks/walls/fake_bricks_Normal"
+	$surfaceprop Concrete
+
+	$detail "detail/dt_texture01"
+	$detailblendfactor 0.36
+
+	$basealphaenvmapmask 1
+
+	$phong 1
+	$phongexponent 66
+	$phongamount "[0.34 0.34 0.34 1]"
+	$phongmaskcontrastbrightness "[1.48 1]"
+}

@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/sakuramart_sign"
+	$bumpmap "models/De_sakura/other/sakuramart_sign_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/sakuramart_sign_specular"
+	$envmaptint "[0.25 0.25 0.25]"
+
+	$phong 1
+	$phongfresnelranges "[0.15 0.57 1]"
+	$phongexponent 5
+
+	$selfillum 1
+	$selfillummask "models/De_sakura/other/sakuramart_sign_selfium"
+}

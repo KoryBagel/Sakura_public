@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/general/manhole01"
+	$bumpmap "models/de_sakura/general/manhole01_n"
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.40 0.40 0.40]"
+	$envmapsaturation 0.16
+
+	$phong 1
+	$phongfresnelranges "[0.3 0.65 1]"
+	$phongexponent 180
+	$basemapalphaphongmask 1
+}

@@ -1,0 +1,7 @@
+Sprite
+{
+	$basetexture "de_sakura/sprites/sakura_bloom__narrow"
+
+	$spriteorientation vp_parallel
+	$spriteorigin "[0.5 0.5]"
+}

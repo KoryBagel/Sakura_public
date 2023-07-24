@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/general/windows/woodframe_Diffuse"
+	$bumpmap "models/De_sakura/general/windows/woodframe_Normal"
+	$surfaceprop Glass
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.83 0.83 0.83]"
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.2
+}

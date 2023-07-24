@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/specific/sakura_roof_trim"
+
+	$phong 1
+	$phongfresnelranges "[0.43 0.71 1]"
+	$phongtint "[0.51 0.60 0.72]"
+	$phongexponent 240
+	$phongboost 1.92
+	$basemapalphaphongmask 1
+}

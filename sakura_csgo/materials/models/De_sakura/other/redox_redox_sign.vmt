@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/redox_redox_sign"
+	$bumpmap "models/De_sakura/other/redox_redox_sign_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/redox_redox_sign_specular"
+	$envmaptint "[0.05 0.05 0.05]"
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.55 1]"
+	$phongexponent 5
+}

@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Store/Coinlaundry/laundy_glass_d"
+	$bumpmap "models/De_sakura/Store/Coinlaundry/laundry_glass_norm"
+
+	$translucent 1
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.35 0.35 0.35]"
+	$envmapsaturation 0.07
+	$envmapfresnel 0.08
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.37 0.69 1]"
+	$phongtint "[0.77 0.77 0.77]"
+	$phongexponent 163
+	$phongboost 1.35
+	$phongalbedoboost 1.55
+	$basemapalphaphongmask 1
+}

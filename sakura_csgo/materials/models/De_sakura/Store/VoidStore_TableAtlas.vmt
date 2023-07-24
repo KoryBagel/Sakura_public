@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Store/VoidStore_TableAtlas_Base_color"
+	$bumpmap "models/De_sakura/Store/VoidStore_TableAtlas_Normal_DirectX"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongexponent 30
+	$basemapalphaphongmask 1
+}

@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Sky/Fiji_Diffuse"
+	$bumpmap "models/De_sakura/Sky/Fiji_Normal"
+
+	$detail "nature/hr_c/hr_grass_001_detail"
+	$detailscale 10
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.22 0.22 0.22]"
+	$envmapsaturation 0.1
+}

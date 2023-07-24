@@ -1,0 +1,12 @@
+Patch
+{
+	include "materials/models/de_sakura/store/signs/Sign_art_base.vmt"
+
+	insert
+	{
+		$basetexture "models/De_sakura/Store/signs/signatlas_horizontal00"
+
+		$selfillum 1
+		$selfillummask "models/De_sakura/Store/signs/signatlas_horizontal_illumpng"
+	}
+}

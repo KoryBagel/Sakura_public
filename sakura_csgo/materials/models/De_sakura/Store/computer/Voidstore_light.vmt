@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	$basetexture "models/de_sakura/store/computer/void_light_height"
+
+	$color "[34.49 34.49 34.49]"
+}

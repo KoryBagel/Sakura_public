@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/screen/screenanim01"
+	$bumpmap "effects/flat_normal"
+
+	$detail "models/de_sakura/store/screen/pixel"
+	$detailscale 51
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongexponent 1024
+
+	$selfillum 1
+	$selfillumfresnelminmaxexp "[0.7 1.6 1.7]"
+	$selfillummask "models/de_sakura/store/screen/screenselfillum"
+	$selfillumtint "[4 4 4]"
+
+	$color "[2.44 2.44 2.44]"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar "$basetexture"
+			animatedTextureFrameNumVar "$frame"
+			animatedTextureFrameRate 24
+		}
+	}
+}

@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/general/vending/foodpackages"
+
+	$envmap "environment maps/metal_generic_006"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.10 0.10 0.10]"
+	$envmapsaturation 0.13
+	$envmaplightscale 0.4
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongexponent 474
+	$phongboost 1.01
+	$basemapalphaphongmask 1
+
+	$selfillum 1
+	$selfillumfresnelminmaxexp "[0.2 1 1]"
+	$selfillummask "models/De_sakura/general/vending/foodpackages_emmisive"
+}

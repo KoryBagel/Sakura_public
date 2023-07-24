@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$basetexture "de_sakura/generic/paths/herringbone/herringbone01_diffuse"
+	$bumpmap "de_sakura/generic/paths/herringbone/herringbone01_normal"
+	$surfaceprop Brick
+
+	$detail "detail/detail_pavement_1"
+	$detailblendfactor 0.35
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.15 0.15 0.15]"
+	$envmapcontrast 0.42
+	$envmapsaturation 0.11
+
+	$phong 1
+	$phongfresnelranges "[0 0.5 1]"
+	$phongexponent 49
+	$phongboost 0.51
+	$basemapalphaphongmask 1
+
+	$model 1
+}

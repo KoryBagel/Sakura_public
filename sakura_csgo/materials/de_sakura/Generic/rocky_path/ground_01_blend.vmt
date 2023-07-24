@@ -1,0 +1,21 @@
+WorldVertexTransition
+{
+	$basetexture "de_sakura/Generic/rocky_path/ground_01"
+	$bumpmap "de_sakura/Generic/rocky_path/ground_01_normal"
+	$surfaceprop Concrete
+
+	$basetexture2 "de_sakura/Generic/rocky_path/ground_01_grass"
+	$bumpmap2 "de_sakura/Generic/rocky_path/ground_01_grass_normal"
+	$surfaceprop2 Grass
+
+	$blendmodulatetexture "de_sakura/Generic/rocky_path/ground_01_spec_height"
+
+	$envmap "env_cubemap"
+	$envmapmask "de_sakura/Generic/rocky_path/ground_01_spec_height"
+	$envmapmask2 "de_sakura/Generic/rocky_path/ground_01_spec_height"
+	$envmaptint "[0.02 0.02 0.02]"
+
+	$phong 1
+	$phongexponent 5
+	$phongamount "[1 1 1 1]"
+}

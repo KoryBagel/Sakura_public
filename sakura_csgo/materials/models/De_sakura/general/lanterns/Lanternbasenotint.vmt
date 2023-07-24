@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/general/lanterns/Lanternbase_Diffuse"
+	$bumpmap "models/De_sakura/general/lanterns/LaunternBase_normal"
+
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[0.29 0.65 1]"
+	$phongexponent 73
+	$phongboost 0.74
+	$phongalbedoboost 0.44
+
+	$blendtintbybasealpha 1
+
+	$notint 1
+}

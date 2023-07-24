@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/cafe_front"
+	$bumpmap "models/De_sakura/other/cafe_front_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/cafe_front_specular"
+    $normalmapalphaenvmapmask 1
+    $envmaptint "[0.2 0.2 0.2]"
+    $envmapsaturation 0.23
+    $envmaplightscale 1
+    $envmaplightscaleminmax "[0 1]" 
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.56 1]"
+	$phongexponent 150
+}

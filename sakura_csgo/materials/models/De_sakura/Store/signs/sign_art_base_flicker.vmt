@@ -1,0 +1,124 @@
+VertexLitGeneric
+{
+	$bumpmap "models/de_sakura/store/signs/signatlas_normal"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.08 0.08 0.08]"
+	$envmapsaturation 0.22
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.36 0.68 1]"
+	$phongexponent 133
+	$phongboost 1.38
+	$phongalbedoboost 0.74
+
+	$selfillum 1
+	$selfillummask "models/De_sakura/Store/signs/Signatlas_illumnew"
+	$selfillumtint "[0.63 0.62 0.56]"
+
+	$lightning_flicker1 0.0
+	$lightning_flicker2 0.0
+	$lightning_flicker3 0.0
+	$lightning_flicker4 0.0
+	$rand_entity_offset 0.0
+	$selfillumtint_a "[0.63 0.62 0.56]"
+	$selfillumtint_b "[0.486 0.491 0.36]"
+	$selfillumtint_c "[0.315 0.315 0.253]"
+	$selfillumtint_temp "[0.0 0.0 0.0]"
+	$temp 0.0
+	$threshold 0.14
+	$threshold2 0.04
+
+	Proxies
+	{
+		EntityRandom
+		{
+			scale 6
+			resultVar "$rand_entity_offset"
+		}
+
+		Sine
+		{
+			sineperiod 0.6413
+			sinemin -0.58
+			sinemax 0.8
+			timeoffset "$rand_entity_offset"
+			resultvar "$lightning_flicker1"
+		}
+
+		Sine
+		{
+			sineperiod 0.574
+			sinemin -0.3
+			sinemax 0.6
+			timeoffset "$rand_entity_offset"
+			resultvar "$lightning_flicker2"
+		}
+
+		Sine
+		{
+			sineperiod 1.367
+			sinemin 0.5
+			sinemax 1
+			timeoffset "$rand_entity_offset"
+			resultvar "$lightning_flicker3"
+		}
+
+		Sine
+		{
+			sineperiod 1.567
+			sinemin 0
+			sinemax 1
+			timeoffset "$rand_entity_offset"
+			resultvar "$lightning_flicker4"
+		}
+
+		Add
+		{
+			srcVar1 "$lightning_flicker1"
+			srcVar2 "$lightning_flicker2"
+			resultvar "$temp"
+		}
+
+		Multiply
+		{
+			srcVar1 "$lightning_flicker3"
+			srcVar2 "$temp"
+			resultvar "$lightning_flicker1"
+		}
+
+		Multiply
+		{
+			srcVar1 "$lightning_flicker1"
+			srcVar2 "$lightning_flicker4"
+			resultvar "$temp"
+		}
+
+		Multiply
+		{
+			srcVar1 "$temp"
+			srcVar2 "$temp"
+			resultvar "$lightning_flicker1"
+		}
+
+		LessOrEqual
+		{
+			greaterVar "$selfillumtint_c"
+			lessEqualVar "$selfillumtint_b"
+			srcVar1 "$lightning_flicker1"
+			srcVar2 "$threshold"
+			resultVar "$selfillumtint_temp"
+		}
+
+		LessOrEqual
+		{
+			greaterVar "$selfillumtint_temp"
+			lessEqualVar "$selfillumtint_a"
+			srcVar1 "$lightning_flicker1"
+			srcVar2 "$threshold2"
+			resultVar "$selfillumtint"
+		}
+	}
+}

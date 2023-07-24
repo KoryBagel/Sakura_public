@@ -1,0 +1,19 @@
+LightmappedGeneric
+{
+	$basetexture "sakura/metal_tiles/metal_tiles01_light"
+	$bumpmap "sakura/metal_tiles/metal_tiles01_normal_different_compression"
+	$surfaceprop Metalpanel
+
+	$envmap "environment maps/metal_generic_004"
+	$envmapmask "sakura/metal_tiles/metal_tiles01_specular"
+	$envmaptint "[0.65 0.65 0.65]"
+	$envmapcontrast 0.24
+	$envmapsaturation 0.04
+	$fresnelreflection 0
+	$envmaplightscale 0.29
+	$envmaplightscaleminmax "[0.10 1.10]"
+
+	$phong 1
+	$phongexponent 75
+	$phongamount "[2 2 2 1]"
+}

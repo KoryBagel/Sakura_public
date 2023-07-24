@@ -1,0 +1,23 @@
+Refract
+{
+	$basetexture "models/De_sakura/Fakerooms/Substance_graph_basecolor"
+	$surfaceprop Glass
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.40 0.40 0.40]"
+
+	$refract 1
+	$normalmap "effects/flat_normal"
+	$refracttint "[0.81 0.89 1]"
+	$refractamount 0.03
+	$bluramount 1
+
+	$refracttexture "_rt_waterrefraction"
+
+	$color "[4.59 4.59 4.59]"
+
+	$localrefract 1
+	$localrefractdepth 0
+	$model 1
+	$scale "[-1 -1]"
+}

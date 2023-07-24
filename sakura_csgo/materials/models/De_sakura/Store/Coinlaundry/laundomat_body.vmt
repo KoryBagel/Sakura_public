@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Store/Coinlaundry/Laundomat_body_Diffuse"
+	$bumpmap "models/de_sakura/store/coinlaundry/laundomat_body_normal_directx"
+
+	$detail "detail/metal_detail_01"
+	$detailblendfactor 0.2
+
+	$envmap "enviroment maps/metal_generic_001"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.69 0.52 0.49]"
+	$envmapsaturation 0.33
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.13 0.56 1]"
+	$phongtint "[0.22 0.22 0.22]"
+	$phongexponent 222
+	$phongboost 0.61
+	$phongalbedoboost 0.47
+	$basemapalphaphongmask 1
+}

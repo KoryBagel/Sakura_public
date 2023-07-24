@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/tarii_gate_tarii_gate_BaseColor"
+	$bumpmap "models/De_sakura/tarii_gate_tarii_gate_Normal"
+}

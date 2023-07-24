@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	$basetexture "models/De_sakura/Sky/SKYBOX_GEO_Material"
+
+	$detail "nature/hr_c/hr_terrain_001_detail"
+	$detailscale 2
+	$detailblendfactor 1.5
+}

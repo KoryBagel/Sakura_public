@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/coinlaundry/clothes_stationary"
+	$bumpmap "models/de_sakura/detail/clothes_stationary_norm"
+
+	$alphatest 1
+
+	$envmap "environment maps/metal_generic_005"
+	$envmaptint "[0.30 0.26 0.20]"
+	$envmapsaturation 0.52
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.48
+
+	$nodecal 1
+
+	$color2 "[0.36 0.36 0.36]"
+}

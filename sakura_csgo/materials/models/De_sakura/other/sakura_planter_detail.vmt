@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/other/sakura_planter_detail"
+	$bumpmap "models/De_sakura/other/sakura_planter_detail_Normal_DirectX"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.20 0.20 0.20]"
+	$envmapsaturation 0.23
+	$envmaplightscale 1
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.56 3]"
+	$phongexponent 150
+}

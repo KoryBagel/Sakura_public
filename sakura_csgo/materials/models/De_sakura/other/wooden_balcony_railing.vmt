@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/wooden_balcony_railing"
+	$bumpmap "models/De_sakura/other/wooden_balcony_railing_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/wooden_balcony_railing_specular"
+	$envmaptint "[0.15 0.15 0.15]"
+	$envmapfresnel 0.1
+
+	$phong 1
+	$phongfresnelranges "[0.15 0.57 1]"
+	$phongexponent 5
+}

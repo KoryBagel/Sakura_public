@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Decals/Tile_broken_decal_Diffuse"
+	$bumpmap "de_sakura/Decals/Tile_broken_decal_normal"
+
+	$alphatest 1
+	$decal 1
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/sky/skybox_building_bake"
+	$bumpmap "models/de_sakura/sky/skybox_building_bake_norm"
+}

@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+	$bumpmap "models/de_sakura/store/signs/signatlas_normal"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.16 0.16 0.16]"
+	$envmapsaturation 0.22
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0 1]"
+
+	$selfillum 1
+	$selfillummask "models/De_sakura/Store/signs/Signatlas_illumnew"
+
+	$color "[4.59 4.59 4.59]"
+
+	$lightning_flicker1 0.0
+	$lightning_flicker2 0.0
+	$lightning_flicker3 0.0
+	$lightning_flicker4 0.0
+	$temp 0.0
+	$temp2 0.0
+	$temp3 0.0
+	$temp4 0.0
+}

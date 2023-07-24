@@ -1,0 +1,38 @@
+WorldVertexTransition
+{
+	$basetexture "sakura/road/hr_road_asphalt_basecolor"
+	$bumpmap "sakura/road/hr_road_asphalt_normal"
+	$surfaceprop Concrete
+
+	$basetexture2 "sakura/road/hr_road_asphalt_basecolor"
+	$bumpmap2 "sakura/road/hr_road_asphalt_normal"
+	$surfaceprop2 Concrete
+
+	$detail "de_dust/hr_dust/hr_dust_asphalt_04_detail"
+	$detailscale 0.25
+	$detailblendfactor 1.25
+
+	$blendmodulatetexture "sakura/road/hr_road_asphalt_height"
+
+	$envmap "env_cubemap"
+	$envmapmask "sakura/road/hr_road_asphalt_roughness"
+	$envmapmask2 white
+	$envmaptint "[0.10 0.10 0.10]"
+	$envmapcontrast 1
+	$envmapsaturation 0.32
+	$fresnelreflection 0.69
+	$envmaplightscale 0.75
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongexponent 23
+	$phongamount "[5 5 5 1]"
+	$phongexponent2 110
+	$phongamount2 "[50 50 50 1]"
+
+	$layerborderoffset 0.04
+	$layerbordersoftness 0.33
+	$layerbordertint "[0.73 0.73 0.73]"
+	$layertint2 "[0.70 0.70 0.70]"
+	$newlayerblending 1
+}

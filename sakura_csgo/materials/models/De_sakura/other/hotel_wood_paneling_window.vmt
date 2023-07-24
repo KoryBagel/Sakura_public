@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/other/hotel_wood_paneling_window"
+	$bumpmap "models/de_sakura/other/hotel_wood_paneling_window_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/hotel_wood_paneling_window_specular"
+	$envmaptint "[0.1 0.1 0.1]"
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.06
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.55 1]"
+	$phongexponent 75
+}

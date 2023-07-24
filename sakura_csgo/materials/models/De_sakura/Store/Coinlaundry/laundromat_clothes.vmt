@@ -1,0 +1,48 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/coinlaundry/clothes_rotary"
+	$bumpmap "models/de_sakura/store/coinlaundry/clothes_rotary_norm"
+
+	$envmap "environment maps/metal_generic_005"
+	$envmaptint "[0.30 0.26 0.20]"
+	$envmapsaturation 0.52
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.48
+
+	$basetexturetransform "center 0.5 0.5 scale 1 1 rotate 100 translate 0 0"
+
+	$nodecal 1
+
+	$color2 "[0.36 0.36 0.36]"
+
+	$angle 0.0
+	$center "[0.5 0.5]"
+	$translate "[0.0 0.0]"
+
+	Proxies
+	{
+		LinearRamp
+		{
+			rate 550
+			initialValue 0.0
+			resultVar "$angle"
+		}
+
+		TextureTransform
+		{
+			translateVar "$translate"
+			rotateVar "$angle"
+			centerVar "$center"
+			resultVar "$basetexturetransform"
+			resultVar "$bumptransform"
+		}
+
+		TextureTransform
+		{
+			translateVar "$translate"
+			rotateVar "$angle"
+			centerVar "$center"
+			resultVar "$bumptransform"
+		}
+	}
+}

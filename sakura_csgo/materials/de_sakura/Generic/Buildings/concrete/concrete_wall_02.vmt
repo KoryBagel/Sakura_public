@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Generic/Buildings/concrete/Concrete_wall_02_BaseColor"
+	$bumpmap "de_sakura/Generic/Buildings/concrete/Concrete_wall_02_Normal"
+	$surfaceprop Concrete
+
+	$detail "models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_block_detail"
+	$detailscale 8
+
+	$envmap "environment maps/metal_generic_006"
+	$envmapmask "de_sakura/Generic/Buildings/concrete/Concrete_wall_02_Roughness"
+	$envmaptint "[0.11 0.14 0.18]"
+}

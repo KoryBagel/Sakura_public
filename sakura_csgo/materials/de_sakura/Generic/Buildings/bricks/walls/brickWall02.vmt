@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Generic/Buildings/bricks/walls/cocrete_slate01_BaseColor"
+	$bumpmap "de_sakura/Generic/Buildings/bricks/walls/cocrete_slate01_Normal"
+	$surfaceprop Concrete
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.10 0.10 0.10]"
+}

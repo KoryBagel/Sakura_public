@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/decals/roadmarkings/stop_marking_diffuse"
+	$bumpmap "de_sakura/decals/roadmarkings/stop_marking_normal"
+
+	$detail "asphalt/hr_c/hr_asphalt_001_detail"
+	$detailscale 0.25
+
+	$translucent 1
+	$decal 1
+
+	$envmap "environment maps/metal_generic_003"
+	$envmaptint "[0.13 0.13 0.13]"
+	$envmapsaturation 0.14
+}

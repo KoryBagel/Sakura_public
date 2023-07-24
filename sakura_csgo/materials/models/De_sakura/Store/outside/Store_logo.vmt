@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Store/outside/Store_logo_Base_Color"
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.06 0.06 0.06]"
+	$envmapsaturation 0
+
+	$phong 1
+	$phongfresnelranges "[0.23 0.61 1]"
+	$phongexponent 64
+	$phongalbedoboost 0.27
+	$basemapalphaphongmask 1
+
+	$selfillum 1
+	$selfillummask "models/de_sakura/store/outside/store_logo_emmisive"
+	$selfillumtint "[1.20 1.20 1.20]"
+}

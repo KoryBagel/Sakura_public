@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/detail/tactileatlas_diffuse"
+	$bumpmap "models/de_sakura/detail/tactileatlas_normal"
+
+	$envmap "environment maps/metal_generic_001"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.07 0.06 0.05]"
+	$envmapsaturation 0.34
+	$envmaplightscale 0.5
+	$envmaplightscaleminmax "[0.30 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.15 0.57 1]"
+	$phongexponent 180
+	$phongboost 0.44
+	$phongalbedoboost 0.27
+	$basemapalphaphongmask 1
+}

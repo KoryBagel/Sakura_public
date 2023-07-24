@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/general/utility_atlas_BaseColor"
+	$bumpmap "models/De_sakura/general/utility_atlas_Normal"
+
+	$detail "models/de_sakura/general/utility_atlas_detail_tall"
+	$detailscale "[1 0.5]"
+
+	$envmap "environment maps/metal_generic_005"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.02 0.02 0.02]"
+	$envmaplightscale 1
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.08 0.54 1]"
+	$phongexponent 157
+	$phongboost 0.27
+	$phongalbedoboost 0.3
+	$basemapalphaphongmask 1
+}

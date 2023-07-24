@@ -1,0 +1,15 @@
+UnlitGeneric
+{
+	$basetexture "models/de_sakura/store/computer/store_light_basecolor"
+
+	$envmap "environment maps/metal_generic_003"
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0.20 1]"
+	$envmapanisotropy 1
+	$envmapanisotropyscale 10
+
+	$selfillum 1
+	$selfillumtint "[2 2 2]"
+
+	$color "[11.21 11.21 11.21]"
+}

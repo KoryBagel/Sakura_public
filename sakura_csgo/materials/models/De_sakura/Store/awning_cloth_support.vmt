@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/awnings_cloth_awning_cloth_support_basecolor"
+	$bumpmap "models/de_sakura/store/awnings_cloth_awning_cloth_support_normal"
+
+	$nocull 1
+
+	$envmap "environment maps/metal_generic_004"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.15 0.15 0.15]"
+	$envmapsaturation 0.65
+	$envmaplightscale 0.75
+	$envmaplightscaleminmax "[0.30 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongtint "[0.31 0.31 0.31]"
+	$phongexponent 222
+	$basemapalphaphongmask 1
+
+	$notint 1
+}

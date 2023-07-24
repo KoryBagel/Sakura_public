@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	$basetexture "de_sakura/Decals/hotel_glow_diffuse"
+
+	$additive 1
+	$decal 1
+
+	$color "[1.23 1.23 1.23]"
+}

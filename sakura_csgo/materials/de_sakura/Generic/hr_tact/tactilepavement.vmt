@@ -1,0 +1,17 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/generic/hr_tact/tactilepavement_diffuse"
+	$bumpmap "de_sakura/generic/hr_tact/tactilepavement_norm"
+	$surfaceprop Metal
+
+	$detail "detail/metal_detail_01"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.12 0.11 0.03]"
+	$envmapsaturation 0.4
+
+	$phong 1
+	$phongexponent 342
+	$phongamount "[1 1 1 1]"
+}

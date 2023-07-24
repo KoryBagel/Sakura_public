@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/detail/water_decal"
+
+	$detail "detail/plaster_detail_01"
+	$detailscale "[16 8]"
+	$detailblendfactor 0.25
+
+	$translucent 1
+	$decal 1
+}

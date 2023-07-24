@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/police_red_window"
+	$bumpmap "models/De_sakura/other/police_red_window_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/police_red_window_specular"
+	$envmaptint "[0.15 0.15 0.15]"
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.55 1]"
+	$phongexponent 5
+}

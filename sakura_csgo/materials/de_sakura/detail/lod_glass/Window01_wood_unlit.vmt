@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/detail/lod_glass/Window_fixer_unlit"
+	$bumpmap "de_sakura/detail/lod_glass/Window_fixer_normal"
+	$surfaceprop Grass
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.50 0.50 0.50]"
+}

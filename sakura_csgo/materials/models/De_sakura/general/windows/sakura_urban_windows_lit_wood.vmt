@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/general/windows/woodframe_diffuse_glow"
+	$bumpmap "models/de_sakura/general/windows/woodframe_normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.76 0.76 0.66]"
+
+	$selfillum 1
+	$selfillummask "models/de_sakura/general/windows/frame_illum"
+	$selfillumtint "[2.50 2.50 2.50]"
+}

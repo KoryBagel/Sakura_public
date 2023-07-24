@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/desk_deco_cat"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.15 0.15 0.15]"
+}

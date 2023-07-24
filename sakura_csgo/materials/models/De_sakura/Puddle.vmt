@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/generic_puddle_diffuse"
+	$bumpmap "effects/flat_normal"
+
+	$alpha 0.45
+	$translucent 1
+
+	$envmap "env_cubemap"
+	$envmapmask "white"
+	$envmaptint "[0.50 0.50 0.50]"
+	$envmapcontrast 1
+	$envmapsaturation 0.8
+	$envmaplightscale 0.59
+	$envmaplightscaleminmax "[0 1]"
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.23
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongexponent 195
+
+	$nodecal 1
+}

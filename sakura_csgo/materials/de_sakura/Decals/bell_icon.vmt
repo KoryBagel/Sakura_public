@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/decals/bell_icon_basecolor"
+
+	$alpha 2
+	$translucent 1
+	$decal 1
+
+	$color "[0.37 0.18 0.18]"
+}

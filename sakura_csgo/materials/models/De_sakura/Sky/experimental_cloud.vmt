@@ -1,0 +1,28 @@
+UnlitTwoTexture
+{
+	$basetexture "models/de_sakura/sky/experimental_clouds_diffuse"
+	$texture2 "models/de_sakura/sky/experimental_clouds_diffuse2"
+
+	$alpha 0.52
+	$translucent 1
+
+	$nodecal 1
+	$nofog 1
+
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar "$Texture2Transform"
+			texturescrollrate .004
+			texturescrollangle 60
+		}
+
+		TextureScroll
+		{
+			texturescrollvar "$basetexturetransform"
+			texturescrollrate .006
+			texturescrollangle 40
+		}
+	}
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/hr_foliage/cherryblossomfloorpetals_diffuse"
+
+	$translucent 1
+	$decal 1
+}

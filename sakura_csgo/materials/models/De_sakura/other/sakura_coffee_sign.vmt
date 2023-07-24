@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/sakura_coffee_sign"
+	$bumpmap "models/De_sakura/other/sakura_coffee_sign_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/sakura_coffee_sign_specular"
+    $normalmapalphaenvmapmask 1
+    $envmaptint "[0.2 0.2 0.2]"
+    $envmapsaturation 0.23
+    $envmaplightscale 1
+    $envmaplightscaleminmax "[0 1]" 
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.56 1]"
+	$phongexponent 150
+	
+	$selfillum 1
+	$selfillummask "models/De_sakura/other/sakura_coffee_sign_selfium"
+}

@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/computer/voidmac_box"
+	$bumpmap "effects/flat_normal"
+
+	$envmap "environment maps/metal_generic_002"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.03 0.03 0.04]"
+	$envmapsaturation 0.11
+	$envmaplightscale 0.34
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0 0.5 1]"
+	$phongexponent 318
+	$phongboost 0.37
+	$phongalbedoboost 0.91
+
+	$blendtintbybasealpha 1
+}

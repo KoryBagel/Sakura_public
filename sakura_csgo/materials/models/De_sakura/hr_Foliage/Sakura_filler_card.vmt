@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/computer/sakura_card"
+
+	$alphatest 1
+	$nocull 1
+
+	$envmap "environment maps/metal_generic_004"
+	$envmapmask "models/de_sakura/store/computer/sakura_card_gloss"
+	$envmaptint "[0.16 0.15 0.23]"
+	$envmapsaturation 0.78
+	$envmaplightscale 0.4
+	$envmaplightscaleminmax "[0.20 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.13 0.56 1]"
+	$phongtint "[0.47 0.59 1]"
+	$phongexponent 5
+	$phongboost 0.2
+	$phongalbedoboost 0.44
+}

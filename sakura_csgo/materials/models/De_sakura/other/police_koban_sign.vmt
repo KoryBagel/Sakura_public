@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/police_koban_sign"
+	$bumpmap "models/De_sakura/other/police_koban_sign_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/police_koban_sign_specular"
+	$envmaptint "[0.20 0.20 0.20]"
+
+	$phong 1
+	$phongfresnelranges "[0.2 0.6 1]"
+	$phongexponent 5
+}

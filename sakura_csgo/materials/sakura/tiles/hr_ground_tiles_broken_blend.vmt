@@ -1,0 +1,31 @@
+WorldVertexTransition
+{
+	$basetexture "sakura/tiles/hr_ground_tiles_basecolor"
+	$bumpmap "sakura/tiles/hr_ground_tiles_normal"
+	$surfaceprop Tile
+
+	$basetexture2 "sakura/tiles/hr_ground_tiles_broken_basecolor"
+	$bumpmap2 "sakura/tiles/hr_ground_tiles_broken_normal"
+	$surfaceprop2 Tile
+
+	$blendmodulatetexture "sakura/tiles/hr_ground_tiles_height"
+
+	$envmap "env_cubemap"
+	$envmapmask "sakura/tiles/hr_ground_tiles_roughness"
+	$envmapmask2 "sakura/tiles/hr_ground_tiles_broken_roughness"
+	$envmaptint "[0.50 0.50 0.50]"
+	$envmapcontrast 1
+	$envmapsaturation 0.8
+	$envmaplightscale 0.59
+	$envmaplightscaleminmax "[0 1]"
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.23
+
+	$phong 1
+	$phongexponent 195
+	$phongamount "[1 1 1 1]"
+	$phongexponent2 57
+
+	$blendsoftness 0.04
+	$newlayerblending 1
+}

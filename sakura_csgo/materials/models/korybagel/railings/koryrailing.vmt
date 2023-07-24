@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	$basetexture "models/korybagel/railings/koryrailing_diffuse"
+	$bumpmap "models/korybagel/railings/koryrailing_normal_directx"
+
+	$detail "detail/metal_detail_01"
+	$detailscale "[4 2]"
+	$detailblendfactor 0.2
+
+	$envmap "enviroment maps/metal_generic_001"
+	$normalmapalphaenvmapmask 1
+	$envmapcontrast 0.5
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.32 0.66 1]"
+	$phongexponent 100
+	$phongboost 1.59
+	$phongalbedoboost 0.71
+	$basemapalphaphongmask 1
+}

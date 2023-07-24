@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/clock_body"
+	$bumpmap "models/De_sakura/other/clock_body_normal"
+
+	$envmap "env_cubemap"
+    $envmapmask "models/De_sakura/other/clock_body_specular"
+    $envmaptint "[0.03 0.03 0.04]"
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.56 1]"
+	$phongexponent 75
+	
+	$detail "detail/metal_detail_01"
+	$detailscale 8
+    $detailblendfactor 1
+}

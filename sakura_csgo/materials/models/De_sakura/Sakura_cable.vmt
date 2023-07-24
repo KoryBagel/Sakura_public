@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/cables_sakura_cable_basecolor"
+
+	$detail "detail/dt_brushed"
+	$detailscale "[40 60]"
+	$detailblendfactor 0.27
+
+	$envmap "environment maps/metal_generic_004"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.56 0.51 0.62]"
+	$envmapcontrast 0.19
+	$envmapsaturation 0.04
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0.30 1]"
+}

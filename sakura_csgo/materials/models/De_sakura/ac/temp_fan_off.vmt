@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/ac/fan_render_diffuse"
+	$bumpmap "models/de_sakura/ac/fan_render_normal"
+
+	$alphatest 1
+
+	$envmap "environment maps/metal_generic_004"
+	$envmapmask "models/de_sakura/ac/fan_render_glossiness"
+	$envmaptint "[0.86 0.86 0.86]"
+	$envmapsaturation 0.71
+	$envmaplightscale 0.72
+	$envmaplightscaleminmax "[0.30 1]"
+
+	$nodecal 1
+
+	$notint 1
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/debris/cigarettes_Ash_base"
+
+	$alphatest 1
+}

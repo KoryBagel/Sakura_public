@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/hotel_window_small"
+	$bumpmap "models/De_sakura/other/hotel_window_small_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/hotel_window_small_specular"
+	$envmaptint "[0.05 0.05 0.05]"
+
+	$phong 1
+	$phongfresnelranges "[0.2 0.6 1]"
+	$phongexponent 5
+}

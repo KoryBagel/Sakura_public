@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/ac/sakura_ac_ac_cooler_body2_basecolor"
+	$bumpmap "models/de_sakura/ac/sakura_ac_ac_cooler_body_normal"
+
+	$detail "detail/metal_detail_01"
+	$detailblendfactor 0.25
+
+	$decaltexture "models/de_sakura/ac/final"
+	$decalblendmode 0
+
+	$envmap "environment maps/metal_generic_006"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.21 0.21 0.21]"
+	$envmapsaturation 0.1
+	$envmaplightscale 0.67
+	$envmaplightscaleminmax "[0.30 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.11 0.56 1]"
+	$phongexponent 61
+	$basemapalphaphongmask 1
+
+	$blendtintbybasealpha 1
+	$tintmasktexture "models/de_sakura/ac/ac_color_mask"
+}

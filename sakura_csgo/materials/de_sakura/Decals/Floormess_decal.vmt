@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Decals/floormess_diffuse"
+
+	$detail "dust_massive/detail_ground_01"
+	$detailscale 8
+	$detailblendfactor 0.48
+
+	$translucent 1
+	$decal 1
+}

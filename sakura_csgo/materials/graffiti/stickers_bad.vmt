@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	$basetexture "graffiti/stickers_bad"
+
+	$alpha 1.5
+	$alphatest 1
+	$decal 1
+}

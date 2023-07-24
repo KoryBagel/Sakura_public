@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/hr_foliage/tree_bark_1_basecolor"
+
+	$treesway 1
+	$treeswayheight 90
+	$treeswaystartheight 1
+	$treeswayradius 120
+	$treeswaystartradius 0.63
+	$treeswaystrength 0.25
+	$treeswayspeed 1.39
+	$treeswayfalloffexp 129
+	$treeswayscrumblestrength 0
+	$treeswayscrumblespeed 0
+	$treeswayscrumblefrequency 0
+	$treeswayscrumblefalloffexp 0
+	$treeswayspeedhighwindmultiplier 0.01
+	$treeswayspeedlerpstart 0
+	$treeswayspeedlerpend 1
+}

@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Store/generic/basket_diff_final"
+	$bumpmap "models/de_sakura/store/generic/basket_normal_final"
+
+	$alphatest 1
+	$alphatestreference 0.6
+	$nocull 1
+
+	$envmap "enviroment maps/metal_generic_001"
+	$envmaptint "[0.25 0.25 0.25]"
+	$envmapcontrast 0.06
+	$envmapsaturation 0
+	$envmapfresnel 0.03
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0 0.5 1]"
+	$phongexponent 198
+	$phongboost 2.5
+}

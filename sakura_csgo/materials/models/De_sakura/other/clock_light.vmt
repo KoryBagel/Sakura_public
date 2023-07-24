@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/clock_light"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.33 0.33 0.33]"
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.15
+
+	$selfillum 1
+	
+	"Proxies"
+	{
+		"AnimatedTexture"
+	{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "1"
+	}
+	}
+}

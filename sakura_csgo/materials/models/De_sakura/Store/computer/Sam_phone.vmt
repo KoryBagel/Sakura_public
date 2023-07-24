@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Store/computer/sam_diff"
+	$bumpmap "effects/flat_normal"
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.06 0.06 0.06]"
+
+	$phong 1
+	$phongfresnelranges "[0.14 0.57 1]"
+	$phongexponent 180
+	$phongboost 12
+	$basemapalphaphongmask 1
+}

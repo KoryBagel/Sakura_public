@@ -1,0 +1,20 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Generic/specific/bombsite_mural_bombsite_mural_BaseColor"
+	$bumpmap "de_sakura/Generic/specific/Mural_flattened_normal"
+	$surfaceprop Concrete
+
+	$detail "detail/detail_rock001"
+	$detailscale 2
+	$detailblendfactor 0.4
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.13 0.13 0.13]"
+	$envmapsaturation 0.09
+
+	$phong 1
+	$phongexponent 31
+	$phongamount "[0.72 0.72 0.72 1]"
+	$phongmaskcontrastbrightness "[2.7 1]"
+}

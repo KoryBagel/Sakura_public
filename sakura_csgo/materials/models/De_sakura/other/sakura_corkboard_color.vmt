@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/phoenix_corkboard_color"
+
+	$envmap "environment maps/metal_generic_001"
+	$basealphaenvmapmask 1
+	$envmapcontrast 0.6
+	$envmaplightscale 1
+	$envmaplightscaleminmax "[0 1.50]"
+}

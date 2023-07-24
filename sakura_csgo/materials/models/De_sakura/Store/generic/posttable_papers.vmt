@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Store/generic/storetable_papers_diffuse"
+
+	$alphatest 1
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[0.31 0.66 1]"
+	$phongtint "[0.41 0.41 0.41]"
+	$phongexponent 180
+	$phongboost 1.22
+
+	$nodecal 1
+}

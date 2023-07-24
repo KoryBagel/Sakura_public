@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/store/signs/sign_metal_diffuse"
+	$bumpmap "effects/flat_normal"
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+}

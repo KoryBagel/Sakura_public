@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Store/phone/box_final"
+	$bumpmap "effects/flat_normal"
+
+	$envmap "environment maps/metal_generic_002"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongexponent 109
+
+	$blendtintbybasealpha 1
+}

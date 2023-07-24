@@ -1,0 +1,19 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/generic/buildings/bricks/walls/bricktiles1_diffuse"
+	$bumpmap "de_sakura/generic/buildings/bricks/walls/bricktiles1_normal"
+	$surfaceprop Brick
+
+	$detail "detail/rock_detail_1"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.02 0.02 0.02]"
+	$envmapsaturation 0.02
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongexponent 156
+	$phongamount "[0.5 0.5 0.5 1]"
+}

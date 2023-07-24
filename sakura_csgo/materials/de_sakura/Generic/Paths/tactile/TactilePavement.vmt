@@ -1,0 +1,18 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Generic/Paths/tactile/Tactilepavement01_Diffuse"
+	$bumpmap "de_sakura/Generic/Paths/tactile/Tactilepavement01_Normal"
+	$surfaceprop Tile
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.23 0.23 0.23]"
+	$envmapsaturation 0.11
+	$envmaplightscale 0.12
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongexponent 169
+	$phongamount "[0.71 0.71 0.71 1]"
+	$phongmaskcontrastbrightness "[0.76 1]"
+}

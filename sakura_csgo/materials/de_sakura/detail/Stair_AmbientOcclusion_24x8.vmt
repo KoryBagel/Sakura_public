@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/detail/Stair_AO_diffuse"
+
+	$translucent 1
+	$decal 1
+}

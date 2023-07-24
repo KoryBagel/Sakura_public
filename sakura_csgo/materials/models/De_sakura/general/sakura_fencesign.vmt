@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/general/sakura_fencesign_diffuse"
+	$bumpmap "models/de_sakura/general/sakura_fencesign_normal"
+
+	$detail "detail/metal_detail_01"
+	$detailblendfactor 0.43
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.19 0.19 0.19]"
+	$envmapsaturation 0.11
+	$envmaplightscale 0.27
+	$envmaplightscaleminmax "[0 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.52 0.76 1]"
+	$phongexponent 336
+	$phongboost 1.38
+	$basemapalphaphongmask 1
+}

@@ -1,0 +1,4 @@
+parallaxtest
+{
+	$basetexture "Experimental/alpha_diffuse"
+}

@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+	$basetexture "de_sakura/Decals/Lantern_light"
+
+	$additive 1
+
+	$color "[0.97 0.43 0.05]"
+
+	$notint 1
+}

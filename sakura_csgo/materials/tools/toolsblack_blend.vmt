@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	$basetexture "tools/toolsblack_blend"
+	$surfaceprop Default_Silent
+
+	$translucent 1
+
+	$allowalphatocoverage 1
+}

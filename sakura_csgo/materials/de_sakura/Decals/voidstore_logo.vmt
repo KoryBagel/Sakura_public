@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/decals/voidlogo1ktransp"
+
+	$alpha 0.6
+	$translucent 1
+	$decal 1
+
+	$color "[0 0 0]"
+}

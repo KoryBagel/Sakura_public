@@ -1,0 +1,31 @@
+LightmappedGeneric
+{
+	$basetexture "white"
+	$surfaceprop Glass
+
+	$alpha 0.25
+	$translucent 1
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.10 0.10 0.10]"
+	$envmapcontrast 0.27
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.32
+
+	$phong 1
+	$phongexponent 282
+	$phongamount "[2 2 2 1]"
+
+	$color "[0.61 0.81 1]"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar "$bumpmap"
+			animatedTextureFrameNumVar "$bumpframe"
+			animatedTextureFrameRate 24
+		}
+	}
+}

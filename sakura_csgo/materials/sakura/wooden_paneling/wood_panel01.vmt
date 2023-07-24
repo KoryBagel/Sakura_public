@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	$basetexture "sakura/wooden_paneling/wood_panel01"
+	$bumpmap "sakura/wooden_paneling/wood_panel01_normal"
+	$surfaceprop Wood
+
+	$envmap "env_cubemap"
+	$envmapmask "sakura/wooden_paneling/wood_panel01_specular"
+	$envmaptint "[0.10 0.10 0.10]"
+	$fresnelreflection 0.9
+
+	$phong 1
+	$phongexponent 20
+	$phongamount "[5 5 5 1]"
+}

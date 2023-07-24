@@ -1,0 +1,16 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/generic/hr_c/cocrete_panel_basecolor"
+	$bumpmap "de_sakura/generic/hr_c/cocrete_panel_normal"
+	$surfaceprop Concrete
+
+	$detail "stone/hr_stone/hr_pebbledash_001_detail"
+	$detailscale 0.5
+
+	$basealphaenvmapmask 1
+
+	$phong 1
+	$phongexponent 113
+	$phongamount "[0.46 0.46 0.46 1]"
+	$phongmaskcontrastbrightness "[1.39 1]"
+}

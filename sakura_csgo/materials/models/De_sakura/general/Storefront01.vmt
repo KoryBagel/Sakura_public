@@ -1,0 +1,31 @@
+VertexLitGeneric
+{
+	$basetexture "models/de_sakura/general/hr_storefront_basecolor"
+	$bumpmap "de_sakura/Generic/Shared/rain"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.50 0.50 0.50]"
+	$envmapsaturation 0.52
+	$envmaplightscale 0.3
+	$envmaplightscaleminmax "[0.25 1]"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongtint "[0.80 0.91 1]"
+	$phongexponent 109
+	$phongboost 0.97
+	$phongalbedoboost 0.97
+
+	$bumptransform "center 0.5 0.5 scale 2.5 2.5 rotate 0 translate 0 0"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar "$bumpmap"
+			animatedTextureFrameNumVar "$bumpframe"
+			animatedTextureFrameRate 24
+		}
+	}
+}

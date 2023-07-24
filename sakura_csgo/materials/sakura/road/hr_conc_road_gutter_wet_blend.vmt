@@ -1,0 +1,39 @@
+WorldVertexTransition
+{
+	$basetexture "sakura/road/hr_conc_road_gutter_basecolor"
+	$bumpmap "sakura/road/hr_conc_road_gutter_normal"
+	$surfaceprop Concrete
+
+	$basetexture2 "sakura/road/hr_conc_road_gutter_basecolor"
+	$bumpmap2 "sakura/road/hr_conc_road_gutter_normal"
+
+	$detail "models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_block_detail"
+	$detailscale "[2 16]"
+
+	$blendmodulatetexture "sakura/road/hr_conc_road_gutter_height"
+
+	$envmap "env_cubemap"
+	$envmapmask "sakura/road/hr_conc_road_gutter_roughness"
+	$envmapmask2 grey
+	$envmaptint "[0.22 0.22 0.22]"
+	$envmapcontrast 1
+	$envmapsaturation 0.5
+	$fresnelreflection 0.41
+	$envmaplightscale 1
+	$envmaplightscaleminmax "[0 1]"
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.47
+
+	$phong 1
+	$phongexponent 44
+	$phongamount "[5 5 5 1]"
+	$phongexponent2 110
+	$phongamount2 "[80 80 80 1]"
+
+	$blendsoftness 0.23
+	$layerbordersoftness 0.77
+	$layerborderstrength 0.51
+	$layerbordertint "[0.78 0.78 0.78]"
+	$layertint2 "[0.57 0.57 0.57]"
+	$newlayerblending 1
+}

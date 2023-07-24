@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$bumpmap "models/de_sakura/store/poster/posterbase_normal"
+
+	$envmap "enviroment maps/metal_generic_001"
+	$envmaptint "[0.34 0.34 0.34]"
+	$envmapsaturation 0.44
+	$envmaplightscale 0.1
+	$envmaplightscaleminmax "[0 1]"
+}

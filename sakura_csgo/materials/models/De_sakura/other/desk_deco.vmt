@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/desk_deco"
+	$bumpmap "models/De_sakura/other/desk_deco_normal"
+
+	$envmap "env_cubemap"
+	$envmapmask "models/De_sakura/other/desk_deco_specular"
+	$envmaptint "[0.03 0.03 0.03]"
+}

@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	$basetexture "models/KoryBagel/Glassframe/glass_frame_diffuse"
+	$bumpmap "models/KoryBagel/Glassframe/glass_frame_Normal"
+
+	$detail "detail/dt_metal1"
+
+	$envmap "environment maps/metal_generic_004"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.10 0.10 0.10]"
+	$envmapcontrast 0.08
+	$envmapsaturation 0.22
+	$envmapfresnel 0.03
+
+	$phong 1
+	$phongfresnelranges "[0.53 0.77 1]"
+	$phongexponent 533
+	$phongboost 2.94
+	$phongalbedoboost 1.42
+	$basemapalphaphongmask 1
+}

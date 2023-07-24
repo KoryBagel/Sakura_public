@@ -1,0 +1,9 @@
+Patch
+{
+	include "materials/models/de_sakura/store/signs/Sign_art_base.vmt"
+
+	insert
+	{
+		$basetexture "models/De_sakura/Store/signs/Signatlas03"
+	}
+}

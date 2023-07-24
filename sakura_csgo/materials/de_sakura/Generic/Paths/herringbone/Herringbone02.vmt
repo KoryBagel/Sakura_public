@@ -1,0 +1,26 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/generic/paths/herringbone/herringbone02_diffuse"
+	$bumpmap "de_sakura/Generic/Paths/herringbone/herringbone02_normal"
+	$surfaceprop Brick
+
+	$bumpmap2 "de_sakura/generic/shared/bigbumps_normal"
+
+	$detail "detail/detail_pavement_1"
+	$detailblendfactor 0.35
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.08 0.08 0.08]"
+	$envmapcontrast 0.2
+	$envmapsaturation 0.05
+
+	$phong 1
+	$phongexponent 182
+	$phongamount "[0.11 0.11 0.11 1]"
+	$phongmaskcontrastbrightness "[0.55 1]"
+
+	$addbumpmaps 1
+	$bumpdetailscale2 0.3
+	$bumptransform2 "center 0 0 scale 0.05 0.05 rotate 0 translate 0 0"
+}

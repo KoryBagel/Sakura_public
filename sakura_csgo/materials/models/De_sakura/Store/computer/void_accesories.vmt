@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/Store/computer/void_accesories_diffuse"
+	$bumpmap "models/de_sakura/store/computer/voidaccesories_normal"
+
+	$detail "metal/hr_metal/hr_metal_detail_002"
+	$detailblendfactor 0.2
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.06 0.06 0.06]"
+
+	$phong 1
+	$phongfresnelranges "[0.14 0.57 1]"
+	$phongexponent 180
+	$phongboost 12
+	$basemapalphaphongmask 1
+
+	$blendtintbybasealpha 1
+	$tintmasktexture "models/de_sakura/store/computer/void_accesories_tintmask"
+}

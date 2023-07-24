@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/other/phonebooth"
+	$bumpmap "models/De_sakura/other/phonebooth_normal"
+
+	$envmap "environment maps/metal_generic_002"
+    $normalmapalphaenvmapmask 1
+    $envmaptint "[0.08 0.08 0.08]"
+    $envmapsaturation 0.23
+    $envmaplightscale 1
+    $envmaplightscaleminmax "[0 1]" 
+
+	$phong 1
+	$phongfresnelranges "[0.1 0.56 1]"
+	$phongexponent 5
+	
+	$detail "detail/metal_detail_01"
+	$detailscale 8
+    $detailblendfactor 1
+}

@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture "models/De_sakura/general/boxes1_diffuse"
+	$bumpmap "models/De_sakura/general/boxes_normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.07 0.07 0.07]"
+	$envmapcontrast 0.13
+	$envmapsaturation 0.11
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongexponent 180
+	$basemapalphaphongmask 1
+}

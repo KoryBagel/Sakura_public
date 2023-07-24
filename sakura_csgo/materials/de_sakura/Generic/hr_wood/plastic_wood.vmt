@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/Generic/hr_wood/plastic_wood_BaseColor"
+	$bumpmap "de_sakura/Generic/hr_wood/plastic_wood_Normal"
+	$surfaceprop Plastic
+
+	$normalmapalphaenvmapmask 1
+
+	$phong 1
+	$phongexponent 15
+	$phongamount "[0.56 0.56 0.56 1]"
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/decals/voidstore_decal01"
+
+	$translucent 1
+	$decal 1
+}

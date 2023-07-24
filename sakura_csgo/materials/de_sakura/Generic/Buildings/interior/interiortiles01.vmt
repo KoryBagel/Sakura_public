@@ -1,0 +1,21 @@
+LightmappedGeneric
+{
+	$basetexture "de_sakura/generic/buildings/interior/interiortiles_diffuse"
+	$bumpmap "de_sakura/generic/buildings/interior/interiortiles_normal"
+	$surfaceprop Tile
+
+	$detail "de_dust/hr_dust/hr_dust_floortile_01_detail"
+	$detailscale 0.5
+	$detailblendfactor 0.81
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmapsaturation 0.54
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.33
+
+	$phong 1
+	$phongexponent 87
+	$phongamount "[0.64 0.64 0.64 1]"
+	$phongmaskcontrastbrightness "[6.96 0.7]"
+}

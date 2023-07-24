@@ -1,0 +1,271 @@
+Sakura.outside.generic.wide
+{
+	"dsp" "13"
+	"dsp_spatial" "20"
+	"dsp_volume"  "1"
+	"fadetime"  "1.0"
+	
+	"playlooping"
+	{
+	"volume"	"0.3"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave" "ambient\weather\aztec_rain_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"0"
+	"wave" "ambient/nuke/fan_01.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"1"
+	"wave" "ambient/nuke/fan_01.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"2"
+	"wave" "ambient/nuke/fan_01.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"3"
+	"wave" "ambient/tones/fan2_loop.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"4"
+	"wave" "ambient/tones/fan2_loop.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"5"
+	"wave" "ambient/tones/fan2_loop.wav"
+	}
+	
+	"playlooping"
+	{
+	"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_25db"
+	
+	"position"	"6"
+	"wave" "ambient\nature\wind_leaves_mild_gust_1.wav"
+	}
+	//randomcar sounds
+		"playrandom"
+	{
+	"time"		"20,35"
+	"pitch"		"90,110"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_90db"
+	
+	"position"	"7"
+	
+	"rndwave"
+		{
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_01.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_02.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_03.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_04.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_05.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_06.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_07.wav"
+		}
+	}
+}
+Sakura.outside.generic.narrow
+{
+	"dsp" "12"
+	"dsp_spatial" "20"
+	"dsp_volume"  "1"
+	"fadetime"  "1.0"
+	
+	"playlooping"
+	{
+	"volume"	"0.3"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave" "ambient\weather\aztec_rain_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"0"
+	"wave" "ambient/nuke/fan_01.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"1"
+	"wave" "ambient/nuke/fan_01.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"2"
+	"wave" "ambient/nuke/fan_01.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"3"
+	"wave" "ambient/tones/fan2_loop.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"4"
+	"wave" "ambient/tones/fan2_loop.wav"
+	}
+		"playlooping"
+	{
+		"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_35db"
+	
+	"position"	"5"
+	"wave" "ambient/tones/fan2_loop.wav"
+	}
+	
+	"playlooping"
+	{
+	"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_25db"
+	
+	"position"	"6"
+	"wave" "ambient\nature\wind_leaves_mild_gust_1.wav"
+	}
+	//randomcar sounds
+		"playrandom"
+	{
+	"time"		"20,35"
+	"pitch"		"90,110"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_90db"
+	
+	"position"	"7"
+	
+	"rndwave"
+		{
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_01.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_02.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_03.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_04.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_05.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_06.wav"
+		"wave"	"ambient\atmosphere\csgo_dust_car_driveby_07.wav"
+		}
+	}
+}
+Sakura.interior.laundry
+{
+	"dsp" "8"
+	"dsp_spatial" "20"
+	"dsp_volume"  "1"
+	"fadetime"  "1.0"
+	
+	"playlooping"
+	{
+	"volume"	"0.25"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave" "ambient\weather\aztec_int_rain_lp_01.wav"
+	}
+	
+	"playlooping"
+	{
+	"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_55db"
+	"position"	"0"
+	"wave" "sakura\washing_machine_loop.wav"
+	}
+	
+	"playlooping"
+	{
+	"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_55db"
+	"position"	"1"
+	"wave" "sakura\washing_machine_loop.wav"
+	}
+	
+	"playlooping"
+	{
+	"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_55db"
+	"position"	"2"
+	"wave" "sakura\washing_machine_loop.wav"
+	}
+	
+	"playlooping"
+	{
+	"pitch"	"80,120"
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_55db"
+	"position"	"3"
+	"wave" "sakura\washing_machine_loop.wav"
+	}
+	
+}
+Sakura.interior.voidstore
+{
+	"dsp" "9"
+	"dsp_spatial" "20"
+	"dsp_volume"  "1"
+	"fadetime"  "1.0"
+	
+	"playlooping"
+	{
+	"volume"	"0.25"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave" "ambient\weather\aztec_int_rain_lp_01.wav"
+	}
+	
+	"playlooping"
+	{
+	"volume"	"0.65"
+	"soundlevel"	"SNDLVL_45db"
+	"position"	"0"
+	"wave" "sakura\voidstorebgm.wav"
+	}
+}

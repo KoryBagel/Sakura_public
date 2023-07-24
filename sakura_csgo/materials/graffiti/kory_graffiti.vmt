@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	$basetexture "graffiti/spray_alpha_diffuse_1"
+
+	$alpha 0.82
+	$translucent 1
+	$decal 1
+
+	$color "[0.14 0.45 0.81]"
+	$color2 "[0.77 0.87 0.98]"
+	$tintmasktexture "graffiti/spray_alpha_diffuse"
+
+	$notint 1
+}
