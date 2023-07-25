@@ -10,7 +10,7 @@ example credit:
 this map uses assets from De_sakura.\
 -KoryBagel\
 -DooZyy\
-https://textures.com/ and https://texturelabs.org/
+[https://github.com/KoryBagel/Sakura_public](https://github.com/KoryBagel/Sakura_public)
 
 --- 
 ## instalation guide.
