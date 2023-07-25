@@ -1,5 +1,5 @@
-# Sakura public 
- a public release of sakura assets for free use inside any source engine based game
+# Sakura assets
+ a public release of Sakura assets for free use inside any source engine based game.
 
 ---
 
@@ -12,9 +12,15 @@ this map uses assets from De_sakura.\
 -DooZyy\
 https://textures.com/ and https://texturelabs.org/\
 
----
+--- 
+##instalation guide.
 
-## this repo includes
+copy the sakura_csgo folder into your `steamapps\common\Counter-Strike Global Offensive\csgo` folder\
+open gameinfo.txt also located in the csgo folder\
+add 			`Game				"sakura_csgo"` bellow `Game csgo`\
+
+![alt text](https://github.com/KoryBagel/Sakura_public/blob/main/sakura_csgo_gameinfo.png?raw=true)
+## table of contets
 
 - example map (zoo_sakura_git)
 -  316 materials (includes model materials)
