@@ -1,5 +1,6 @@
 # Sakura assets
  a public release of Sakura assets for free use inside any source engine based game.
+ ![Banner image](https://github.com/KoryBagel/Sakura_public/blob/main/sakura_zoo_banner.png)?raw=true)
 
 ---
 
