@@ -13,7 +13,7 @@ this map uses assets from De_sakura.\
 https://textures.com/ and https://texturelabs.org/\
 
 --- 
-##instalation guide.
+## instalation guide.
 
 copy the sakura_csgo folder to your work folder or your csgo installations root folder)
 open gameinfo.txt also located in the csgo folder\
