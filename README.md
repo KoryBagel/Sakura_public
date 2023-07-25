@@ -15,9 +15,9 @@ https://textures.com/ and https://texturelabs.org/\
 --- 
 ## instalation guide.
 
-copy the sakura_csgo folder to your work folder or your csgo installations root folder)
-open gameinfo.txt located inside `steamapps\common\Counter-Strike Global Offensive\csgo\`
-add 			`Game				"(fullpath to the sakura_csgo"` bellow `Game csgo`\
+copy the sakura_csgo folder to your work folder or your csgo installations root folder)\
+open gameinfo.txt located inside `steamapps\common\Counter-Strike Global Offensive\csgo\`\
+add 			`Game "(fullpath to the sakura_csgo folder)"` bellow `Game csgo`\
 
 ![correct installation](https://github.com/KoryBagel/Sakura_public/blob/main/sakura_csgo_gameinfo.png?raw=true)
 
