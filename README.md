@@ -15,14 +15,15 @@ https://textures.com/ and https://texturelabs.org/\
 --- 
 ##instalation guide.
 
-copy the sakura_csgo folder into your `steamapps\common\Counter-Strike Global Offensive\csgo` folder\
+copy the sakura_csgo folder to your work folder or your csgo installations root folder)
 open gameinfo.txt also located in the csgo folder\
-add 			`Game				"sakura_csgo"` bellow `Game csgo`\
 
-![alt text](https://github.com/KoryBagel/Sakura_public/blob/main/sakura_csgo_gameinfo.png?raw=true)
+add 			`Game				"(fullpath to the sakura_csgo"` bellow `Game csgo`\
+![correct installation](https://github.com/KoryBagel/Sakura_public/blob/main/sakura_csgo_gameinfo.png?raw=true)
 ## table of contets
 
-- example map (zoo_sakura_git)
+-  example map (zoo_sakura_git)
+-  7 instance vmf files including the skybox
 -  316 materials (includes model materials)
 -  218 models
 -  3 sound loops
