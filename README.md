@@ -19,7 +19,11 @@ copy the sakura_csgo folder to your work folder or your csgo installations root 
 open gameinfo.txt also located in the csgo folder\
 
 add 			`Game				"(fullpath to the sakura_csgo"` bellow `Game csgo`\
+
 ![correct installation](https://github.com/KoryBagel/Sakura_public/blob/main/sakura_csgo_gameinfo.png?raw=true)
+
+---
+
 ## table of contets
 
 -  example map (zoo_sakura_git)
