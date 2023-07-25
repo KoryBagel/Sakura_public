@@ -16,8 +16,7 @@ https://textures.com/ and https://texturelabs.org/\
 ## instalation guide.
 
 copy the sakura_csgo folder to your work folder or your csgo installations root folder)
-open gameinfo.txt also located in the csgo folder\
-
+open gameinfo.txt located inside `steamapps\common\Counter-Strike Global Offensive\csgo\`
 add 			`Game				"(fullpath to the sakura_csgo"` bellow `Game csgo`\
 
 ![correct installation](https://github.com/KoryBagel/Sakura_public/blob/main/sakura_csgo_gameinfo.png?raw=true)
@@ -31,7 +30,6 @@ add 			`Game				"(fullpath to the sakura_csgo"` bellow `Game csgo`\
 -  316 materials (includes model materials)
 -  218 models
 -  3 sound loops
-
 -  soundscape manifest
     - includes 4 presets 
         -   Sakura.outside.generic.wide
