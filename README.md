@@ -55,5 +55,5 @@ add 			`Game "(fullpath to the sakura_csgo folder)"` bellow `Game csgo`
 ---
 
 [![Licence Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-**Sakura**, by  [Korybagel](https://www.korybagel.art),DooZyy is licensed under a [Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/).
+**Sakura**, by  [Korybagel](https://www.korybagel.art),[DooZyy](https://twitter.com/DooZyy__) is licensed under a [Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/).
 uses work from [textures.com](https://www.textures.com) and [texturelabs.org](https://www.texturelabs.org)
